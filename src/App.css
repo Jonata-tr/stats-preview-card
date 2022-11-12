@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 :root{
     --bg: hsl(233, 47%, 7%);
     --card: hsl(244, 38%, 16%);
     --span: hsl(277, 64%, 61%);
+    --main-text: hsla(0, 0%, 100%, 0.75);
+    --stats: hsla(0, 0%, 100%, 0.6); 
 }
 
 *{
@@ -18,22 +22,63 @@ body{
 }
 
 main{
-    display: inline-block;
-    margin: auto;
+    display: grid;
+    grid-template-columns:auto auto;
 }
-
 .left{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3.5rem 5rem;
     background-color: var(--card);
-    max-width: 500px;
-    height: 400px;
+    max-width: 666px;
+    max-height: 550px;
 }
 
-.right img{
-    max-width: 800px;
-    height: 400px;
+.left h1{
+    color: #fff;
+    font-size: 2.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.left span {
+    color: var(--span);
+}
+
+#mainText{
+    color: var(--main-text);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+}
+
+.right{
+    background-color: var(--span);
+    max-height: 550px;
+}
+
+.right #img {
+    height: 550px;
+    opacity: .56;
 }
 
 .bottomLeft{
     display: grid;
-    grid-template-columns: 3rem 3rem 3rem;
+    grid-template-columns: auto auto auto;
+}
+
+.bottom {
+    color: var(--stats);
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.bottom strong{
+    color: #fff;
+    font-size: 1.5rem;
 }

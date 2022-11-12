@@ -4,29 +4,32 @@ import rigthImg from './images/image-header-desktop.jpg'
 function App() {
   return (
     <main>
-      <section className='left'>
+      <div className='left'>
         <h1>Get <span>insights</span> that help your business grow.</h1>
-        <p>Discover the benefits of data analytics and male better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <p id="mainText">
+          Discover the benefits of data analytics and make <br/>
+          better decisions regarding revenue, customer <br/>
+          experience, and overall efficiency.</p>
 
         <div className='bottomLeft'>
-          <div className='bottom1'>
+          <div className='bottom'>
             <p><strong>10k+</strong></p>
             <p>COMPANIES</p>  
           </div>
-          <div className='bottom2'>
+          <div className='bottom'>
             <p><strong>314</strong></p>
             <p>TEMPLATES</p>  
           </div>
-          <div className='bottom3'>
+          <div className='bottom'>
             <p><strong>12M+</strong></p>
             <p>QUERIES</p>  
           </div>
         </div>
-      </section>
+      </div>
 
-      <section className='right'>
-        <img src={rigthImg} alt='' />
-      </section>
+      <div className='right'>
+        <img src={rigthImg} alt='' id='img'/>
+      </div>
     </main>
   );
 }
