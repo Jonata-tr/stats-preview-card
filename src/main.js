@@ -7,8 +7,8 @@ function App() {
       <div className='left'>
         <h1>Get <span>insights</span> that help your business grow.</h1>
         <p id="mainText">
-          Discover the benefits of data analytics and make <br/>
-          better decisions regarding revenue, customer <br/>
+          Discover the benefits of data analytics and make 
+          better decisions regarding revenue, customer 
           experience, and overall efficiency.</p>
 
         <div className='bottomLeft'>
