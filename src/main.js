@@ -1,5 +1,6 @@
 import './App.css';
 import rigthImg from './images/image-header-desktop.jpg'
+import rigthMobile from './images/image-header-mobile.jpg'
 
 function App() {
   return (
@@ -27,8 +28,12 @@ function App() {
         </div>
       </div>
 
-      <div className='right'>
-        <img src={rigthImg} alt='' id='img'/>
+      <div className='rigth'>
+        <img 
+        src={rigthImg} 
+        srcSet={rigthMobile}
+        sizes="(max-width: 7 68px) 768px"
+        alt='' id='img'/>
       </div>
     </main>
   );
