@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Jonata-tr/stats-preview-card
-- Live Site URL: https://stats-preview-card-silk-eight.vercel.appcom)
+- Live Site URL: https://stats-preview-card-silk-eight.vercel.app
 
 ## My process
 
